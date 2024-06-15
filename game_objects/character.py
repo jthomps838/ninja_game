@@ -1,7 +1,14 @@
 import pygame
 from pygame.locals import K_LEFT, K_RIGHT, K_DOWN, K_UP
 
-from constants import WIDTH, HEIGHT, DOWN, UP, RIGHT, LEFT, WALKING_FRAME_SETUP
+from constants.constants import (
+                                 WIDTH,
+                                 HEIGHT,
+                                 DOWN,
+                                 UP,
+                                 RIGHT,
+                                 LEFT,
+                                 WALKING_FRAME_SETUP)
 
 
 class Player(pygame.sprite.Sprite):

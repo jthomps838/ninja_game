@@ -2,8 +2,8 @@ import pygame
 import sys
 from pygame.locals import QUIT
 
-from constants import FPS, HEIGHT, WIDTH, GAME_NAME, CHARACTER_IMG
-import colors as c
+from constants.constants import FPS, HEIGHT, WIDTH, GAME_NAME, CHARACTER_IMG
+import constants.colors as c
 from game_objects.character import Player
 
 pygame.init()
